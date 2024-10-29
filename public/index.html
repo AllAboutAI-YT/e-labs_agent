@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TechGear Store - Your One-Stop Shop</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px 0;
+    }
+
+    .product-card {
+      border: 1px solid #ddd;
+      padding: 15px;
+      text-align: center;
+      border-radius: 8px;
+    }
+
+    .product-card img {
+      max-width: 200px;
+      height: auto;
+    }
+
+    .product-card h3 {
+      margin: 10px 0;
+    }
+
+    .price {
+      color: #2ecc71;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    .buy-btn {
+      background: #3498db;
+      color: white;
+      padding: 8px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .buy-btn:hover {
+      background: #2980b9;
+    }
+  </style>
+</head>
+<body>
+  <!-- ElevenLabs Widget -->
+  <elevenlabs-convai agent-id="Tc83giaghVxJ1aS8zGkW"></elevenlabs-convai>
+  <script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript"></script>
+
+  <header>
+    <h1>TechGear Store</h1>
+    <p>Your AI-Powered Shopping Assistant is Here to Help!</p>
+  </header>
+
+  <div class="container">
+    <div class="products">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200" alt="Wireless Headphones">
+        <h3>Premium Wireless Headphones</h3>
+        <p>High-quality sound with noise cancellation</p>
+        <div class="price">$199.99</div>
+        <button class="buy-btn">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200" alt="Smartwatch">
+        <h3>Smart Fitness Watch</h3>
+        <p>Track your health and stay connected</p>
+        <div class="price">$149.99</div>
+        <button class="buy-btn">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200" alt="Wireless Earbuds">
+        <h3>Wireless Earbuds</h3>
+        <p>Crystal clear audio with long battery life</p>
+        <div class="price">$89.99</div>
+        <button class="buy-btn">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
